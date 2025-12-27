@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
       <div className="flex items-center gap-3">
         <Brain className="text-primary-500" size={28} />
         <h1 className="text-xl font-bold tracking-wider text-slate-100">
-          NEUROVISION <span className="text-primary-500 font-light">AI</span>
+          BRAINGUARD <span className="text-primary-500 font-light">AI</span>
         </h1>
       </div>
       <div className="flex items-center gap-2">

@@ -39,7 +39,7 @@ export const analyzeMRI = async (base64Image: string, mimeType: string): Promise
             },
           },
           {
-            text: `Analyze this image for NeuroVision AI. 
+            text: `Analyze this image for BrainGuard AI. 
             1. First, strictly verify if this is a grayscale brain MRI scan. Real-world photos, selfies, colored diagrams, or non-medical images must be flagged as isMRI: false.
             2. If it is a valid MRI, detect if there are anomalies indicating a brain tumor.
             3. Provide a confidence score and brief medical reasoning.`,
@@ -49,7 +49,7 @@ export const analyzeMRI = async (base64Image: string, mimeType: string): Promise
       config: {
         responseMimeType: "application/json",
         responseSchema: responseSchema,
-        systemInstruction: "You are an expert radiologist AI assistant named NeuroVision. You are highly conservative and precise. You strictly reject non-MRI images.",
+        systemInstruction: "You are an expert radiologist AI assistant named BrainGuard. You are highly conservative and precise. You strictly reject non-MRI images.",
       },
     });
 

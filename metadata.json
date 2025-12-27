@@ -1,5 +1,5 @@
 {
-  "name": "NeuroVision AI",
+  "name": "BrainGuard AI",
   "description": "An AI-powered Brain Tumor Detection System offering real-time MRI analysis, invalid image filtering, and diagnostic reporting.",
   "requestFramePermissions": []
 }

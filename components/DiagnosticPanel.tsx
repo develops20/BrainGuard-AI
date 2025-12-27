@@ -125,7 +125,7 @@ export const DiagnosticPanel: React.FC<DiagnosticPanelProps> = ({ status, result
           )}
         </button>
         <p className="text-[10px] text-center text-slate-600 mt-4 px-4">
-          * NeuroVision AI is a support tool. Results must be verified by a certified radiologist.
+          * BrainGuard AI is a support tool. Results must be verified by a certified radiologist.
         </p>
       </div>
     </div>
